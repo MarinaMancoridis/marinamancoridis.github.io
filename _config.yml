@@ -23,10 +23,10 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Marina Mancoridis"
-  pronouns         : "she/her"  
+  pronouns         : #"she/her"  
   # bio              : "Short biography for the left-hand sidebar"
   location         : "Cambridge, MA"
-  employer         : "Massachusetts Institute of Technology"
+  employer         : "MIT"
   uri              : # URL
   email            : "marinam@mit.edu" 
 
