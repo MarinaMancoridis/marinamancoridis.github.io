@@ -21,7 +21,7 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2.0'  # Match the version being used
-          bundler-cache: true
+          # bundler-cache: true
           
       - name: Verify Ruby version
         run: |
