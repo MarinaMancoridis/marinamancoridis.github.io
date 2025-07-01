@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: ademi_adeniji [at] berkeley [dot] edu
+subtitle: marinam [at] mit [dot] edu
 
 profile:
   align: left

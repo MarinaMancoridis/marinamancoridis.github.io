@@ -1,19 +1,23 @@
-"adeniji":
-  - firstname: ["Ademi", "A.", "Ademiloluwa"]
-    url: https://ademiadeniji.github.io
+"mullainathan":
+  - firstname: ["Sendhil", "S."]
+    url: https://sendhil.org/
 
-"tamkin":
-  - firstname: ["Alex", "A."]
-    url: https://www.alextamkin.com/
+"weeks":
+  - firstname: ["Bec", "B.", "Rebecca"]
+    url: https://crimelab.uchicago.edu/staff/bec-weeks/
 
-"hashimoto":
-  - firstname: ["Tatsu", "T.", "Tatsunori"]
-    url: https://thashim.github.io/
+"vafa":
+  - firstname: ["Keyon", "K."]
+    url: https://keyonvafa.com/
 
-"goodman":
-  - firstname: ["Noah", "N."]
-    url: https://cocolab.stanford.edu/ndg
+"griffiths":
+  - firstname: ["Tom", "T.", "Thomas"]
+    url: https://cocosci.princeton.edu/
 
-"parmar":
-  - firstname: ["Jupinder", "J.", "Jupi"]
-    url: https://jupinderparmar.com/
+"peterson":
+  - firstname: ["Josh", "J.", "Joshua"]
+    url: https://www.bu.edu/cds-faculty/profile/joshua-peterson/
+
+"Sumers":
+  - firstname: ["Ted", "T.", "Theodore"]
+    url: https://www.tedsumers.info/

@@ -15,7 +15,7 @@ icon: "" # the emoji used as the favicon (alternatively, provide image name in /
 
 url: https://marinamancoridis.github.io/ # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/. Leave blank for root
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: "July 2025" # set to true if you want to display last updated in the footer
 impressum_path: # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
@@ -74,7 +74,7 @@ dblp_url: # your DBLP profile url
 discord_id: # your discord id (18-digit unique numerical identifier)
 facebook_id: # your facebook id
 flickr_id: # your flickr id
-github_username: ademiadeniji # your GitHub user name
+github_username: MarinaMancoridis # your GitHub user name
 gitlab_username: # your GitLab user name
 ieee_id: # your ieeexplore.ieee.org/author/id
 inspirehep_id: # Inspire HEP author ID
@@ -83,7 +83,7 @@ kaggle_id: # your kaggle id
 keybase_username: # your keybase user name
 lastfm_id: # your lastfm id
 lattes_id: # your ID on Lattes (Brazilian Lattes CV)
-linkedin_username: ademi-adeniji # your LinkedIn user name
+linkedin_username: marina-mancoridis # your LinkedIn user name
 mastodon_username: # your mastodon instance+username in the format instance.tld/@username
 medium_username: # your Medium username
 orcid_id: # your ORCID ID
@@ -92,7 +92,7 @@ pinterest_id: # your pinterest id
 publons_id: # your ID on Publons
 quora_username: # your Quora username
 research_gate_profile: # your profile on ResearchGate
-scholar_userid: KFnmktMAAAAJ # your Google Scholar ID
+scholar_userid: 4m7v5W4AAAAJ # your Google Scholar ID
 scopus_id: # your profile on Scopus
 semanticscholar_id: # your Semantic Scholar ID
 spotify_id: # your spotify id
@@ -104,12 +104,12 @@ whatsapp_number: # your WhatsApp number (full phone number in international form
 wikidata_id: # your wikidata id
 wikipedia_id: # your wikipedia id (Case sensitive)
 work_url: # work page URL
-x_username: ademiadeniji # your X handle
+x_username: MMancoridis # your X handle
 youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 zotero_username: # your zotero username
 
 contact_note: >
-  If any of my work sounds interesting, please drop me an email at ademi_adeniji@berkeley.edu!
+  If any of my work sounds interesting, please drop me an email at marinam@mit.edu!
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -324,8 +324,8 @@ display_categories: ["external-services"] # these categories will be displayed o
 # -----------------------------------------------------------------------------
 
 scholar:
-  last_name: [Adeniji]
-  first_name: [Ademi, A.]
+  last_name: [Mancoridis]
+  first_name: [Marina]
 
   style: apa
   locale: en
