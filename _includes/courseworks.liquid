@@ -1,0 +1,32 @@
+<div class="projects">
+  {% if site.courseworks != blank %}
+    <div class="table-responsive" style="max-height: none; overflow: visible">
+      <table class="table table-sm table-borderless">
+        {% assign sorted_courseworks = site.courseworks | sort: 'importance' %}
+        {% for coursework in sorted_courseworks %}
+          <tr>
+            <td>
+              <strong>{{ coursework.title }}</strong><br>
+              {{ coursework.description -}}
+              <br>
+              <br>
+
+              <!-- Render the full content of the coursework -->
+              <div>
+                {{ coursework.content | remove: '<p>' | remove: '</p>' | emojify | markdownify }}
+              </div>
+
+              {% if coursework.github %}
+                <div>
+                  <a href="{{ coursework.github }}" class="btn btn-sm btn-outline-secondary"> View Code on GitHub </a>
+                </div>
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
+  {% else %}
+    <p>No courseworks so far...</p>
+  {% endif %}
+</div>

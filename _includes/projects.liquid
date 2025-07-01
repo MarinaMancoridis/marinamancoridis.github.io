@@ -1,0 +1,32 @@
+<div class="projects">
+  {% if site.projects != blank %}
+    <div class="table-responsive" style="max-height: none; overflow: visible">
+      <table class="table table-sm table-borderless">
+        {% assign sorted_projects = site.projects | sort: 'importance' %}
+        {% for project in sorted_projects %}
+          <tr>
+            <td>
+              <strong>{{ project.title }}</strong><br>
+              {{ project.description -}}
+              <br>
+              <br>
+
+              <!-- Render the full content of the project -->
+              <div>
+                {{ project.content | remove: '<p>' | remove: '</p>' | emojify | markdownify }}
+              </div>
+
+              {% if project.github %}
+                <div>
+                  <a href="{{ project.github }}" class="btn btn-sm btn-outline-secondary"> View Code on GitHub </a>
+                </div>
+              {% endif %}
+            </td>
+          </tr>
+        {% endfor %}
+      </table>
+    </div>
+  {% else %}
+    <p>No projects so far...</p>
+  {% endif %}
+</div>

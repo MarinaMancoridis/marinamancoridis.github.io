@@ -1,1 +1,59 @@
-async function renderPDF(e,t){function n(){l=setInterval(()=>{e.scrollTop+=d*s,e.scrollTop+e.clientHeight>=e.scrollHeight?s=-1:e.scrollTop<=0&&(s=1)},c)}function i(){clearInterval(l)}const o=await pdfjsLib.getDocument(t).promise,a=window.devicePixelRatio||1;for(let t=1;t<=o.numPages;t++){const n=await o.getPage(t),i=document.createElement("div");i.className="pdf-page",i.style.position="relative",e.appendChild(i);const s=document.createElement("canvas"),d=s.getContext("2d");i.appendChild(s);const c=n.getViewport({scale:1}),l=e.clientWidth/c.width,r=n.getViewport({scale:l});s.width=r.width*a,s.height=r.height*a,s.style.width=`${r.width}px`,s.style.height=`${r.height}px`;const p={canvasContext:d,viewport:r,transform:[a,0,0,a,0,0]};await n.render(p).promise,(await n.getAnnotations()).forEach(e=>{if("Link"===e.subtype&&e.url){const t=document.createElement("a");t.href=e.url,t.target="_blank",t.style.position="absolute";const n=1,[o,a,s,d]=e.rect,r=o*l-n,p=(c.height-d)*l-n,u=(s-o)*l+2*n,m=(d-a)*l+2*n;t.style.left=`${r}px`,t.style.top=`${p}px`,t.style.width=`${u}px`,t.style.height=`${m}px`,t.style.border="1px solid #2698BA",t.style.backgroundColor="#2697ba26",t.style.boxSizing="border-box",t.style.zIndex="10",i.appendChild(t)}})}let s=1;const d=1.5,c=30;let l;n(),e.addEventListener("mousemove",i),e.addEventListener("click",i),e.addEventListener("keydown",i),e.addEventListener("keyup",i),e.addEventListener("touchstart",i),e.addEventListener("touchmove",i),e.addEventListener("touchend",i)}function initializeHlsVideo(e,t){document.addEventListener("DOMContentLoaded",function(){const n=document.getElementById(e);if(n)if(Hls.isSupported()){const e=new Hls;e.loadSource(t),e.attachMedia(n)}else n.canPlayType("application/vnd.apple.mpegurl")?n.src=t:console.error("HLS is not supported in this browser.")})}$(document).ready(function(){$("a.abstract").click(function(){$(this).parent().parent().find(".abstract.hidden").toggleClass("open")}),$("a.bibtex").click(function(){$(this).parent().parent().find(".bibtex.hidden").toggleClass("open")}),$(".navbar-nav").find("a").removeClass("waves-effect waves-light")});const headings=document.querySelectorAll("h2[id],h3[id]"),linkContent="\ud83d\udd17";for(const e of headings){const t=document.createElement("a");t.setAttribute("href",`#${e.id}`),t.innerHTML=linkContent;const n=document.createElement("p");n.style.display="inline",n.innerText=" ",e.appendChild(n),e.appendChild(t)}document.addEventListener("DOMContentLoaded",function(){const e=document.getElementById("pdf-viewer");if(e){window["pdfjs-dist/build/pdf"].GlobalWorkerOptions.workerSrc="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js",renderPDF(e,"/assets/pdf/aescontrela_cv.pdf")}}),initializeHlsVideo("sf-downtown-timelapse","https://customer-6oi7pn4r8flcv44j.cloudflarestream.com/03ead00ff2152e3e8ca365fcd75752dc/manifest/video.m3u8"),initializeHlsVideo("tsuchinshan-atlas","https://customer-6oi7pn4r8flcv44j.cloudflarestream.com/363e9bc48a8d7845c4e4c4718a84e6bc/manifest/video.m3u8"),initializeHlsVideo("milky-way-point-arena","https://customer-6oi7pn4r8flcv44j.cloudflarestream.com/e9a2902833dbb704963d3c8a3e8c0621/manifest/video.m3u8"),document.addEventListener("DOMContentLoaded",function(){document.getElementById("viper-easter-egg")&&console.log("\n             ____\n            / . .\\\nHi.         \\  ---<\n             \\  /\n   __________/ /\n-=:___________/\n")});
+$(document).ready(function () {
+  // add toggle functionality to abstract, award and bibtex buttons
+  $("a.abstract").click(function () {
+    $(this).parent().parent().find(".abstract.hidden").toggleClass("open");
+    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
+  });
+  $("a.award").click(function () {
+    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".award.hidden").toggleClass("open");
+    $(this).parent().parent().find(".bibtex.hidden.open").toggleClass("open");
+  });
+  $("a.bibtex").click(function () {
+    $(this).parent().parent().find(".abstract.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".award.hidden.open").toggleClass("open");
+    $(this).parent().parent().find(".bibtex.hidden").toggleClass("open");
+  });
+  $("a").removeClass("waves-effect waves-light");
+
+  // bootstrap-toc
+  if ($("#toc-sidebar").length) {
+    // remove related publications years from the TOC
+    $(".publications h2").each(function () {
+      $(this).attr("data-toc-skip", "");
+    });
+    var navSelector = "#toc-sidebar";
+    var $myNav = $(navSelector);
+    Toc.init($myNav);
+    $("body").scrollspy({
+      target: navSelector,
+    });
+  }
+
+  // add css to jupyter notebooks
+  const cssLink = document.createElement("link");
+  cssLink.href = "../css/jupyter.css";
+  cssLink.rel = "stylesheet";
+  cssLink.type = "text/css";
+
+  let jupyterTheme = determineComputedTheme();
+
+  $(".jupyter-notebook-iframe-container iframe").each(function () {
+    $(this).contents().find("head").append(cssLink);
+
+    if (jupyterTheme == "dark") {
+      $(this).bind("load", function () {
+        $(this).contents().find("body").attr({
+          "data-jp-theme-light": "false",
+          "data-jp-theme-name": "JupyterLab Dark",
+        });
+      });
+    }
+  });
+
+  // trigger popovers
+  $('[data-toggle="popover"]').popover({
+    trigger: "hover",
+  });
+});
