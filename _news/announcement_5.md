@@ -1,8 +1,8 @@
 ---
 layout: post
-date: "2023-12-13"
+date: "2025-06"
 inline: true
 related_posts: false
 ---
 
-We presented Intrinsic Reward Matching and VIPER and NeurIPS!
+We released our paper on [Potemkin Understanding in Large Language Models](https://arxiv.org/abs/2506.21521), and received [significant attention](https://x.com/GaryMarcus/status/1938629881820323940) on Twitter!
