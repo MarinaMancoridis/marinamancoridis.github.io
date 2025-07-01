@@ -1,8 +1,8 @@
 ---
 layout: post
-date: "2024-06-01"
+date: "2024-05-01"
 inline: true
 related_posts: false
 ---
 
-I gave a talk about my [formal model of science](https://escholarship.org/uc/item/0nq6m9m2) at CogSci 2024 in Rotterdam, Netherlands.
+I graduated summa cum laude from Princeton University! Upon graduation, I received the Calvin Dodd MacCracken Senior Thesis Award for the **most inventive and technically accomplished senior thesis in the School of Engineering and Applied Sciences**.
