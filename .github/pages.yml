@@ -2,7 +2,7 @@ name: Deploy Jekyll site to Pages
 
 on:
   push:
-    branches: ["master"]
+    branches: ["main"]
   workflow_dispatch:
 
 permissions:
@@ -25,8 +25,16 @@ jobs:
       - name: Remove Gemfile.lock
         run: rm -f Gemfile.lock
         
-      - name: Install dependencies
-        run: bundle install
+      - name: Debug - Show Ruby and Bundler versions
+        run: |
+          ruby --version
+          bundler --version
+          
+      - name: Debug - Show Gemfile content
+        run: cat Gemfile
+        
+      - name: Install dependencies with verbose output
+        run: bundle install --verbose
         
       - name: Setup Pages
         id: pages
