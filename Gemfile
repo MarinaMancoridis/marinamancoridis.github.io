@@ -40,6 +40,7 @@ end
 group :other_plugins do
     gem 'feedjira'  # Add this - required by your external-posts.rb plugin
     gem 'httparty'  # You might need this too if your plugin uses it
+    gem 'css_parser'
 end
 
 platforms :mingw, :x64_mingw, :mswin, :jruby do
