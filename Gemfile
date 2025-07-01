@@ -11,6 +11,7 @@ gem "activesupport"
 group :jekyll_plugins do
     gem 'jekyll-feed'
     gem 'jekyll-sitemap'
+    gem 'jekyll-paginate-v2' # Add this line here
 end
 
 group :other_plugins do
