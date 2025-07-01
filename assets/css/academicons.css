@@ -569,3 +569,12 @@ border-radius: .1em;
 .ai-inverse {
   color: #fff;
 }
+
+
+.highlight-box {
+  background-color: #fff9c4;   /* very light yellow */
+  padding: 1rem;               /* space inside */
+  border-radius: 4px;          /* rounded corners */
+  margin: 1.5rem 0;            /* vertical breathing room */
+  line-height: 1.5;            /* easier to read */
+}
