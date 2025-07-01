@@ -1,8 +1,8 @@
 ---
 layout: post
-date: "2024-05-23"
+date: "2024-09-01"
 inline: true
 related_posts: false
 ---
 
-I passed my qualifying exam! Thank you to my committee members Pieter Abbeel, Sergey Levine, Jim Fan, and Ken Goldberg.
+I began my [CS](https://www.eecs.mit.edu/) PhD at MIT, advised (very luckily!) by [Sendhil Mullainathan](https://sendhil.org/).
