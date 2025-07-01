@@ -1,8 +1,8 @@
 ---
 layout: post
-date: "2025-05-27"
+date: "2025-09"
 inline: true
 related_posts: false
 ---
 
-We released our research on zero-shot human-to-robot learning [EgoZero: Robot Learning from Smart Glasses](https://egozero-robot.github.io) 📝
+I started my [CS](https://www.eecs.mit.edu/) PhD at MIT, advised by Sendhil Mullainathan. I received the selective [MIT Presidential Graduate Fellowship](https://oge.mit.edu/fellowships/presidential-graduate-fellowship-program/) to support my research.
