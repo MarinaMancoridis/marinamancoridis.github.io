@@ -16,6 +16,12 @@ papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
 
-I am a Computer Science PhD student at [UC Berkeley](https://www.berkeley.edu/), advised by [Pieter Abbeel](https://people.eecs.berkeley.edu/~pabbeel/). My goal is to develop a generally intelligent agent capable of autonomous learning in the real world. I believe scaling the human physical data footprint is on the critical path to resolving [Moravec's Paradox](https://en.wikipedia.org/wiki/Moravec%27s_paradox). Follow me [on X](https://x.com/AdemiAdeniji) for updates on my work.
+I am a first-year Computer Science PhD student at MIT, advised by [Sendhil Mullainathan](https://sendhil.org/). I am grateful to be supported by the MIT Presidential Graduate Fellowship. I am interested in the intersection of artificial intelligence with behavioral science and decision-making.
 
-I received my BS (Honors) and MS in computer science with specialization in artificial intelligence from [Stanford University](https://www.stanford.edu), conducting research under the adivsorship of [Fei-Fei Li](https://profiles.stanford.edu/fei-fei-li) as well as [Kuan Fang](https://kuanfang.github.io) and [Animesh Garg](https://animesh.garg.tech). I interned at [NVIDIA](https://www.nvidia.com/en-us/) conducting reinforcement learning, robotics, and simulation research mentored by [Yuke Zhu](https://yukezhu.me) and [Jim Fan](https://jimfan.me). Before then, I worked on machine learning and automation at [Google](https://www.google.com/about/careers/applications/teams/engineering-technology/) and digital transformation at [McKinsey and Company](https://www.mckinsey.com).
+I graduated summa cum laude from Princeton University with a degree in Computer Science. At Princeton, I worked with [Tom Griffiths](https://cocosci.princeton.edu/tom/tom.php) in the [Computational Cognitive Science Lab](https://cocosci.princeton.edu/). Upon graduating, I received the Calvin Dodd MacCracken Senior Thesis Award for the most inventive and technically accomplished senior thesis in the School of Engineering and Applied Sciences. You can download my full CV [here](/files/marinamancoridis_cv.pdf) and my one-page resume [here](/files/Marina_Mancoridis_CV_APR_2025.pdf).
+
+My recent paper, [Potemkin Understanding in Large Language Models](https://arxiv.org/abs/2506.21521), formalizes and benchmarks conceptual understanding in language models—work that has sparked discussion on [Twitter](https://x.com/GaryMarcus/status/1938629881820323940) and in the AI community.
+
+I also enjoy [singing and playing guitar](https://open.spotify.com/artist/1JgL4xpqLXXMX4rG1E2wnD?si=_VUlDYu6SXGjbfifFEeiMQ).
+
+You can reach me at marinam [at] mit [dot] edu.
