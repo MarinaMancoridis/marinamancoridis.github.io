@@ -35,7 +35,7 @@ jobs:
         uses: actions/configure-pages@v4
         
       - name: Build with Jekyll
-        run: 
+        run: |
           bundle clean --force
           bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --trace
         env:
