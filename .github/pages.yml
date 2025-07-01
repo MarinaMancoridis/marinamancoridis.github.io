@@ -21,20 +21,18 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2'
+          bundler-cache: false  # Disable cache to force Ruby 3.2
           
       - name: Remove Gemfile.lock
         run: rm -f Gemfile.lock
         
-      - name: Debug - Show Ruby and Bundler versions
+      - name: Verify Ruby version
         run: |
           ruby --version
-          bundler --version
-          
-      - name: Debug - Show Gemfile content
-        run: cat Gemfile
+          which ruby
         
-      - name: Install dependencies with verbose output
-        run: bundle install --verbose
+      - name: Install dependencies
+        run: bundle install
         
       - name: Setup Pages
         id: pages
