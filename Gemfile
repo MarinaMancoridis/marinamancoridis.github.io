@@ -3,7 +3,6 @@ source "https://rubygems.org"
 ruby "3.2.0"
 
 gem "jekyll", "~> 4.4"
-gem "webrick"
 
 # Required for google-scholar-citations.rb plugin
 gem "activesupport"
@@ -18,7 +17,6 @@ group :jekyll_plugins do
     # gem 'jekyll-archives'
     # gem 'jekyll-imagemagick'
     gem 'classifier-reborn'
-    gem 'jekyll'
     gem 'jekyll-archives'
     gem 'jekyll-email-protect'
     gem 'jekyll-feed'
