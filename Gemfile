@@ -13,6 +13,7 @@ group :jekyll_plugins do
     gem 'jekyll-sitemap'
     gem 'jekyll-paginate-v2'
     gem 'jekyll-scholar' # Add this line here
+    gem 'jekyll-get-json' # Add this line here
 end
 
 group :other_plugins do
