@@ -14,6 +14,7 @@ group :jekyll_plugins do
     gem 'jekyll-paginate-v2'
     gem 'jekyll-scholar' # Add this line here
     gem 'jekyll-get-json' # Add this line here
+    gem 'jekyll-email-protect'
 end
 
 group :other_plugins do
