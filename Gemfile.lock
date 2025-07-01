@@ -279,7 +279,7 @@ DEPENDENCIES
   feedjira
   http_parser.rb (~> 0.6.0)
   httparty
-  jekyll
+  jekyll (~> 4.3)
   jekyll-archives
   jekyll-email-protect
   jekyll-feed
