@@ -21,19 +21,23 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.2.0'  # Match the version being used
-          # bundler-cache: true
+          bundler-cache: true
+          cache-version: 2
           
       - name: Verify Ruby version
         run: |
           ruby --version
           which ruby
+          bundle env
         
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
         
       - name: Build with Jekyll
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --trace
+        run: 
+          bundle clean --force
+          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --trace
         env:
           JEKYLL_ENV: production
           
