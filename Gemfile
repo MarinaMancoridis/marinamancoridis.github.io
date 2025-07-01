@@ -45,7 +45,9 @@
 
 source "https://rubygems.org"
 
-gem "jekyll", "~> 4.3"
+ruby "3.2.0"  # Add this line to match your workflow
+
+gem "jekyll", "~> 4.4"  # Update to match what's being installed
 gem "webrick"
 
 group :jekyll_plugins do
