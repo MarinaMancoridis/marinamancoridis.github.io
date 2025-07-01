@@ -2,7 +2,7 @@ name: Deploy Jekyll site to Pages
 
 on:
   push:
-    branches: ["master"]
+    branches: ["master"]  # Changed from "main"
   workflow_dispatch:
 
 permissions:
@@ -20,26 +20,20 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2'
-          bundler-cache: false  # Disable cache to force Ruby 3.2
+          ruby-version: '3.1'  # Match the version being used
+          bundler-cache: true
           
-      - name: Remove Gemfile.lock
-        run: rm -f Gemfile.lock
-        
       - name: Verify Ruby version
         run: |
           ruby --version
           which ruby
-        
-      - name: Install dependencies
-        run: bundle install
         
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v4
         
       - name: Build with Jekyll
-        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}" --trace
         env:
           JEKYLL_ENV: production
           
