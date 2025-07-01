@@ -22,7 +22,7 @@ group :jekyll_plugins do
     gem 'jekyll-twitter-plugin'
     gem 'jemoji'
     gem 'unicode_utils'
-    gem 'webrick'
+    gem 'webrick' 
 end
 group :other_plugins do
     gem 'css_parser'
