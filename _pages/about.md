@@ -20,7 +20,7 @@ I am a first-year Computer Science PhD student at MIT, advised by [Sendhil Mulla
 
 I graduated summa cum laude from Princeton University with a degree in Computer Science. At Princeton, I worked with [Tom Griffiths](https://cocosci.princeton.edu/tom/tom.php) in the [Computational Cognitive Science Lab](https://cocosci.princeton.edu/). Upon graduating, I received the Calvin Dodd MacCracken Senior Thesis Award for the most inventive and technically accomplished senior thesis in the School of Engineering and Applied Sciences. You can download my full CV [here](/files/marinamancoridis_cv.pdf) and my one-page resume [here](/files/Marina_Mancoridis_CV_APR_2025.pdf).
 
-My recent paper, [Potemkin Understanding in Large Language Models](https://arxiv.org/abs/2506.21521), formalizes and benchmarks conceptual understanding in language models—work that has gained significant attention on [Twitter](https://x.com/GaryMarcus/status/1938629881820323940) and in the AI community.
+Our recent paper, [Potemkin Understanding in Large Language Models](https://arxiv.org/abs/2506.21521), formalizes and benchmarks conceptual understanding in language models—work that has gained significant attention on [Twitter](https://x.com/GaryMarcus/status/1938629881820323940) and in the AI community.
 
 I also enjoy [singing and playing guitar](https://open.spotify.com/artist/1JgL4xpqLXXMX4rG1E2wnD?si=_VUlDYu6SXGjbfifFEeiMQ).
 
