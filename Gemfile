@@ -1,8 +1,6 @@
 source "https://rubygems.org"
 
 gem "jekyll", "~> 4.3"
-gem "jekyll-tabs"
-gem "jekyll-scholar"
 
 group :jekyll_plugins do
     gem 'classifier-reborn'
