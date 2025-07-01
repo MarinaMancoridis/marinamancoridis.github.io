@@ -23,3 +23,5 @@ I graduated summa cum laude from Princeton University with a degree in Computer 
 My recent paper, [Potemkin Understanding in Large Language Models](https://arxiv.org/abs/2506.21521), formalizes and benchmarks conceptual understanding in language models—work that has gained significant attention on [Twitter](https://x.com/GaryMarcus/status/1938629881820323940) and in the AI community.
 
 I also enjoy [singing and playing guitar](https://open.spotify.com/artist/1JgL4xpqLXXMX4rG1E2wnD?si=_VUlDYu6SXGjbfifFEeiMQ).
+
+
