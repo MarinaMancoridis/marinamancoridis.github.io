@@ -16,6 +16,7 @@ group :jekyll_plugins do
     gem 'jekyll-get-json' # Add this line here
     gem 'jekyll-email-protect'
     gem 'jekyll-archives'
+    gem 'jekyll-imagemagick'
 end
 
 group :other_plugins do
