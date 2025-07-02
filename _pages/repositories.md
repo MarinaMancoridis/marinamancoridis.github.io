@@ -6,7 +6,7 @@ description: linking GitHub profile and relevant project repositories
 nav: true
 ---
 
-{% if site.data.repositories.github_users %}
+<!-- {% if site.data.repositories.github_users %}
 
 ## GitHub users
 
@@ -32,7 +32,7 @@ nav: true
 
 {% endfor %}
 {% endif %}
-{% endif %}
+{% endif %} -->
 
 {% if site.data.repositories.github_repos %}
 
