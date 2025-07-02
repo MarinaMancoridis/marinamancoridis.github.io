@@ -4,7 +4,7 @@ permalink: /cv/
 title: cv
 nav: true
 cv_pdf: marinamancoridis_cv.pdf
-description: the web version of my cv
+description: see general details below and full details by downloading the document to the right
 toc:
   sidebar: left
 ---
