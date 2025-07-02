@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Accelerating Reinforcement Learning with Pretrained Behaviors"
+title: "Publish or Perish: Simulating how Reseracher and Publisher Behaviors Impact Science"
 description: 2022
 img:
 importance: 0
 ---
 
-I gave a series of talks to Preferred Networks, Intel Reinforcement Learning Community, Sony Deep Learning Group, and EA Sports Reinforcement Learning Group. I talk about how to leverage pretrained skills to accelerate reinforcement learning. Here are the [slides](https://docs.google.com/presentation/d/1NVZkd3J6g8HoSRZrfgfRxipVeLvWOdENcMmTv84WIOE/edit?usp=sharing).
+I gave a talk at the [46th Annual Meeting of the Cognitive Science Society](https://cognitivesciencesociety.org/cogsci-2024/). I talked about a novel, theoretical model of science as a collective, information-gathering process. Here are the [slides](https://docs.google.com/presentation/d/1RuhjKozkY5-0pdfTqClfCEOVKi3tShHSEs6vKGAI1Nc/edit?usp=sharing).
