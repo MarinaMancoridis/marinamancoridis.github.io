@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Publish or Perish: Simulating how Reseracher and Publisher Behaviors Impact Science"
-description: 2022
+description: July 2022
 img:
 importance: 0
 ---
