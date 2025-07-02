@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Training Agents using Cheap Data Sources"
-description: September 2024
+title: "Governance of Emerging Technology and Tech Innovations for Next-Gen Governance: Potemkin Understanding"
+description: April 2025
 img:
 importance: 0
 ---
 
-I gave an invited talk at [Princeton Reinforcement Learning Lab](https://ben-eysenbach.github.io). I talk about how to leverage cheap action-free data to improve the generalization of reinforcement learning policies. Here are the [slides](https://docs.google.com/presentation/d/1lh1B3QFSQS14dgnzb4CEpE4pg2He9OWA2n9w_PL_rhY/edit?usp=sharing).
+I gave an invited talk at [Harvard's GETTING-Plurality group (Ash Center)](https://ash.harvard.edu/programs/getting-plurality/). I talked about potemkin understanding in large language models. Here are the [slides](https://docs.google.com/presentation/d/13NwV_v7oQ9VL88VZ2Hp-pFuzZh7QfkRNcDu29uJ-hZ4/edit?usp=sharing).

@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Reinforcement Learning Behavior Generalists - Top-Down and Bottom-Up"
-description: October 2024
+title: "Potemkin Understanding in Large Language Models"
+description: July 2025
 img:
 importance: 0
 ---
 
-I gave an invited talk at [Belgium-Netherlands Reinforcement Learning Research](https://www.benerl.org/seminar-series/schedule). I talk about how reinforcement learning can learn behavior generalists from two opposing perspectives. Here are the [slides](https://docs.google.com/presentation/d/1eA7nohWwbFiwPIc7AfeyRfEBXtDo5snvQCt35RauDQg/edit?usp=sharing).
+I am invited give a talk to [OpenAI's Economic Reserach team](https://www.benerl.org/seminar-series/schedule). I will talk about how to evaluate and benchmark large language models for depth of conceptual understanding. Here are the [slides](https://docs.google.com/presentation/d/1ODHIMpBVGWcDtQ7_fAUSbZVBH2TgJ-xZD5oQ75ay7bY/edit?usp=sharing).
