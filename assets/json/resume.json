@@ -13,7 +13,7 @@
       "location": "Cambridge, MA",
       "url": "https://www.eecs.mit.edu/",
       "area": "Advised by Sendhil Mullainathan",
-      "studyType": "Computer Science PhD Student; studying and building tools that augment human capabilities",
+      "studyType": "Computer Science PhD Student",
       "startDate": "2024-09-01",
       "score": "10",
       "courses": ["Deep Learning (A+)", "Data Visualization & Society (A+)", "Algorithms and Behavioral Science (Economics course; A)"]
@@ -37,8 +37,7 @@
       "studyType": "Exchange semester",
       "startDate": "2023-01-01",
       "endDate": "2023-06-01",
-      "score": "10",
-      "courses": ["Selected as one of five Princeton students for one-semester exchange"]
+      "score": "10"
     }
   ],
   "languages": [
