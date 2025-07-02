@@ -16,7 +16,7 @@
       "studyType": "Computer Science PhD Student",
       "startDate": "2024-09-01",
       "score": "10",
-      "courses": ["Deep Learning (A+)", "Data Visualization & Society (A+)", "Algorithms and Behavioral Science (Economics course; A)"]
+      "courses": ["GPA: 5.0/5.0", "Deep Learning (A+)", "Data Visualization & Society (A+)", "Algorithms and Behavioral Science (Economics course; A)"]
     },
     {
       "institution": "Princeton University",
@@ -27,7 +27,7 @@
       "startDate": "2019-09-01",
       "endDate": "2024-05-01",
       "score": "10",
-      "courses": ["Computational Cognitive Science Lab (Research Assistant)"]
+      "courses": ["GPA: 3.92/4.0", "Computational Cognitive Science Lab (Research Assistant)"]
     },
     {
       "institution": "Swiss Federal Institute of Technology (ETH Zürich)",
@@ -67,6 +67,14 @@
       "keywords": [
         "Rock climbing",
         "Yoga"
+      ]
+    },
+    {
+      "name": "Leadership",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Womxn Ignite",
+        "The Princeton University Wildcats"
       ]
     },
     {
