@@ -13,33 +13,31 @@
       "position": "CS PhD Student",
       "url": "https://example.com",
       "startDate": "2024-09-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
-      "highlights": ["Relativity"]
-    }
-  ],
-  "volunteer": [
-    {
-      "organization": "People's Climate March",
-      "location": "Zurich, Switzerland",
-      "position": "Lead Organizer",
-      "url": "https://example.com",
-      "startDate": "2014-04-01",
-      "endDate": "2015-07-01",
-      "summary": "Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.",
-      "highlights": ["Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march.", "Men of the year 2014 by Time magazine"]
+      "summary": "Studying and building tools that augment human capabilities",
+      "highlights": ["Artificial intelligence", "Behavioral Science", "Decision-making"]
     }
   ],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
-      "location": "Zurich, Switzerland",
-      "url": "https://www.uzh.ch/",
-      "area": "Software Development",
+      "institution": "MIT",
+      "location": "Cambridge, Massachusetts",
+      "url": "https://www.eecs.mit.edu/",
+      "area": "Laboratory for Information & Decision Systems",
       "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "startDate": "2024-09-01",
       "score": "10",
-      "courses": ["Theory of Relativity"]
+      "courses": ["Deep Learning (A+)", "Data Visualization & Society (A+)", "Algorithms and Behavioral Science (Economics department; A)"]
+    },
+    {
+      "institution": "Princeton University",
+      "location": "Princeton, New Jersey",
+      "url": "https://www.cs.princeton.edu/",
+      "area": "Computer Science",
+      "studyType": "Undergraduate",
+      "startDate": "2019-09-01",
+      "endDate": "2024-05-01",
+      "score": "10",
+      "courses": ["Computational Cognitive Science Lab (Research Assistant)"]
     }
   ],
   "awards": [
