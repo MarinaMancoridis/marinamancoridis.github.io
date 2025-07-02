@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-I graduated *summa cum laude* from Princeton University! Upon graduation, **I received the Calvin Dodd MacCracken Senior Thesis Award for the most inventive and technically accomplished senior thesis in the School of Engineering and Applied Sciences** (from around 500 theses).
+I graduated *summa cum laude* from Princeton University! Upon graduation, I received the [Calvin Dodd MacCracken Senior Thesis Award](https://www.cs.princeton.edu/news/class-day-department-celebrates-accomplishments-graduates) for the **most inventive and technically accomplished senior thesis in the School of Engineering and Applied Sciences** (from around 500 theses).
