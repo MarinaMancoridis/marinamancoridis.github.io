@@ -2,7 +2,7 @@
 layout: page
 permalink: /repositories/
 title: repositories
-description: linking GitHub profile and relevant project repositories
+description: linking relevant project repositories
 nav: true
 ---
 
