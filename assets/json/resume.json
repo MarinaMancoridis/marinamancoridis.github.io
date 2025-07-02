@@ -9,25 +9,23 @@
   },
   "education": [
     {
-      "institution": "MIT",
+      "institution": "MIT (GPA: 5.0/5.0)",
       "location": "Cambridge, MA",
       "url": "https://www.eecs.mit.edu/",
       "area": "Advised by Sendhil Mullainathan",
       "studyType": "Computer Science PhD Student",
       "startDate": "2024-09-01",
-      "score": "10",
-      "courses": ["GPA: 5.0/5.0", "A+ grades in: Deep Learning; Data Visualization & Society", "A grades in: Algorithms and Behavioral Science (Economics course)"]
+      "score": "10"
     },
     {
-      "institution": "Princeton University",
+      "institution": "Princeton University (GPA: 3.92/4.0)",
       "location": "Princeton, NJ",
       "url": "https://www.cs.princeton.edu/",
       "area": "Computer Science",
       "studyType": "Undergraduate Education",
       "startDate": "2019-09-01",
       "endDate": "2024-05-01",
-      "score": "10",
-      "courses": ["GPA: 3.92/4.0", "Computational Cognitive Science Lab (Research Assistant)", "A+ grades in: Senior Thesis; Departmental Exam; Computational Cognitive Science; Advanced Programming Techniques; From Animal Learning to Changing People's Minds; Junior Independent Work", "A grades in: Economics and Computing; Transformations in Engineering and the Arts; Introduction to Machine Learning; Principles of Computer Systems Design; Reasoning about Computation"]
+      "score": "10"
     },
     {
       "institution": "Swiss Federal Institute of Technology (ETH Zürich)",
