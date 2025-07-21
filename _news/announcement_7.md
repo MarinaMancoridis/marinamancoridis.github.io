@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-We will present our work on Potemkin Understanding at [ICML 2025](https://icml.cc/).
+We presented our work on [Potemkin Understanding](https://arxiv.org/abs/2506.21521) at [ICML 2025](https://icml.cc/).
