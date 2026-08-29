@@ -1,0 +1,16 @@
+{% assign repo_path = include.repository.repo %}
+{% assign repo_parts = repo_path | split: '/' %}
+{% assign name = repo_parts[1] %}
+
+<a class="bicycle-card" href="https://github.com/{{ repo_path }}">
+  {% if include.repository.emoji %}
+    <span class="bicycle-card-emoji" aria-hidden="true">{{ include.repository.emoji }}</span>
+  {% endif %}
+  <span class="bicycle-card-body">
+    <span class="bicycle-card-tagline">{{ include.repository.tagline }}</span>
+    <span class="bicycle-card-name">
+      {{ name }}
+      <i class="fa-brands fa-github"></i>
+    </span>
+  </span>
+</a>

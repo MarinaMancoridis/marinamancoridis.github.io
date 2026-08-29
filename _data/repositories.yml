@@ -15,4 +15,7 @@ github_repos:
     language_color: "#3572A5"
 
 # Bottom section of /repositories/ — "bicycles of the mind"
-bicycles_repos: []
+bicycles_repos:
+  - repo: MarinaMancoridis/PingPong
+    emoji: "🏓"
+    tagline: A lightweight task manager that tracks who owes what to whom, so nothing slips.

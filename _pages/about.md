@@ -22,6 +22,6 @@ I think about problems at the intersection of **machine learning** and the **mea
 
 Before MIT, I graduated summa cum laude from Princeton University with a degree in Computer Science. At Princeton, I worked with [Tom Griffiths](https://cocosci.princeton.edu/tom/tom.php) in the [Computational Cognitive Science Lab](https://cocosci.princeton.edu/). Upon graduating, I received the Calvin Dodd MacCracken Senior Thesis Award for the most inventive and technically accomplished senior thesis in the School of Engineering and Applied Sciences.
 
-You can download my full CV [here](/assets/pdf/marinamancoridis_cv.pdf).
+<p class="cv-line"><em>You can download my full CV <a href="/assets/pdf/marinamancoridis_cv.pdf">here</a>.</em></p>
 
 

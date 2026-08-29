@@ -27,9 +27,9 @@ hide_header: true
 <p class="repo-section-description">small tools that make thinking easier.</p>
 
 {% if site.data.repositories.bicycles_repos %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-stretch">
+  <div class="bicycles">
     {% for repo in site.data.repositories.bicycles_repos %}
-      {% include repository/repo.liquid repository=repo %}
+      {% include repository/bicycle.liquid repository=repo %}
     {% endfor %}
   </div>
 {% else %}
