@@ -203,11 +203,6 @@ collections:
     output: true
     permalink: /:collection/:title/
 
-# External links added to the nav bar, rendered after the site's own pages
-nav_external_links:
-  - title: blog
-    url: https://writing.marinamancoridis.com/
-
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
