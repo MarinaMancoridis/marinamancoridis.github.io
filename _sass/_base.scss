@@ -704,19 +704,20 @@ footer.sticky-bottom {
   color: var(--global-text-color-light);
 }
 
-.blog-preview-more-line {
-  margin-bottom: 2rem;
-}
-
 .blog-preview-more {
   display: inline-flex;
-  align-items: center;
+  align-items: baseline;
   gap: 0.4rem;
-  font-size: 0.95rem;
+  margin-left: 0.35rem;
+  white-space: nowrap;
 
   i {
     font-size: 0.75rem;
   }
+}
+
+.blog-intro {
+  margin-bottom: 2rem;
 }
 
 .blog-preview-lead {

@@ -7,13 +7,9 @@ nav: true
 nav_order: 5
 ---
 
-I write short essays on psychology and algorithms [writing.marinamancoridis.com](https://writing.marinamancoridis.com/).
-
-<p class="blog-preview-more-line">
-  <a class="blog-preview-more" href="https://writing.marinamancoridis.com/">
-    read everything
-    <i class="fa-solid fa-arrow-right"></i>
-  </a>
+<p class="blog-intro">
+  I write short essays on psychology, philosophy, and algorithms.
+  <a class="blog-preview-more" href="https://writing.marinamancoridis.com/">read the full blog here <i class="fa-solid fa-arrow-right"></i></a>
 </p>
 
 <p class="blog-preview-lead">Here is a sample of my recent writing.</p>

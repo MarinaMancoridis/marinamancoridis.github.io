@@ -90,7 +90,8 @@ layout: default
     {% if page.social %}
       <div class="social">
         <div class="contact-icons">{% include social.liquid %}</div>
-        <div class="contact-note">{{ site.contact_note }}</div>
+        {% capture email_link %}<a href="mailto:{{ site.email | encode_email }}">{{ site.email | encode_email }}</a>{% endcapture %}
+        <div class="contact-note">{{ site.contact_note | replace: site.email, email_link }}</div>
         <br>
       </div>
     {% endif %}
