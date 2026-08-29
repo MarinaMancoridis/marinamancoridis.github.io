@@ -3,7 +3,7 @@ layout: page
 permalink: /courseworks/
 title: talks
 description: a list of representative talks i've given
-nav: true
+nav: false
 nav_order: 3
 ---
 

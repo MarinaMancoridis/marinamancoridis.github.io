@@ -3,5 +3,12 @@ github_users:
 
 repo_description_lines_max: 2
 
+# Top section of /repositories/
 github_repos:
-  - MarinaMancoridis/PotemkinBenchmark
+  - repo: MarinaMancoridis/PotemkinBenchmark
+    description: Documentation for the datasets supporting the Potemkin Benchmark.
+    language: Python
+    language_color: "#3572A5"
+
+# Bottom section of /repositories/ — "bicycles of the mind"
+bicycles_repos: []

@@ -1,46 +1,37 @@
 ---
 layout: page
 permalink: /repositories/
-title: repositories
-description: linking relevant project repositories
+title: projects
+description: things i have built
 nav: true
 ---
 
-<!-- {% if site.data.repositories.github_users %}
+## project repositories
 
-## GitHub users
-
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for user in site.data.repositories.github_users %}
-    {% include repository/repo_user.liquid username=user %}
-  {% endfor %}
-</div>
-
----
-
-{% if site.repo_trophies.enabled %}
-{% for user in site.data.repositories.github_users %}
-{% if site.data.repositories.github_users.size > 1 %}
-
-  <h4>{{ user }}</h4>
-  {% endif %}
-  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% include repository/repo_trophies.liquid username=user %}
-  </div>
-
----
-
-{% endfor %}
-{% endif %}
-{% endif %} -->
+<p class="repo-section-description">code accompanying my research.</p>
 
 {% if site.data.repositories.github_repos %}
+  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-stretch">
+    {% for repo in site.data.repositories.github_repos %}
+      {% include repository/repo.liquid repository=repo %}
+    {% endfor %}
+  </div>
+{% else %}
+  <p class="repo-section-description"><em>coming soon.</em></p>
+{% endif %}
 
-## GitHub Repositories
+---
 
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.liquid repository=repo %}
-  {% endfor %}
-</div>
+## bicycles of the mind
+
+<p class="repo-section-description">small tools that make thinking easier.</p>
+
+{% if site.data.repositories.bicycles_repos %}
+  <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-stretch">
+    {% for repo in site.data.repositories.bicycles_repos %}
+      {% include repository/repo.liquid repository=repo %}
+    {% endfor %}
+  </div>
+{% else %}
+  <p class="repo-section-description"><em>coming soon.</em></p>
 {% endif %}

@@ -1,0 +1,25 @@
+<!-- Fills in live star/fork counts for repo cards; silently leaves them hidden on any failure. -->
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    document.querySelectorAll('.repo-card[data-repo]').forEach(function (card) {
+      fetch('https://api.github.com/repos/' + card.dataset.repo)
+        .then(function (r) {
+          return r.ok ? r.json() : Promise.reject(r.status);
+        })
+        .then(function (data) {
+          const fill = function (sel, value) {
+            const el = card.querySelector(sel);
+            if (el && typeof value === 'number') {
+              el.querySelector('span').textContent = value;
+              el.hidden = false;
+            }
+          };
+          fill('[data-repo-stars]', data.stargazers_count);
+          fill('[data-repo-forks]', data.forks_count);
+        })
+        .catch(function () {
+          /* leave the counts hidden */
+        });
+    });
+  });
+</script>
