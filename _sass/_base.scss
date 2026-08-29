@@ -719,56 +719,6 @@ footer.sticky-bottom {
   }
 }
 
-// "Bicycles of the mind" cards — deliberately wider and quieter than the
-// research repo cards, with the tagline as the focal point.
-.bicycles {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-}
-
-.bicycle-card {
-  display: flex;
-  align-items: flex-start;
-  gap: 1rem;
-  padding: 1.1rem 1.25rem;
-  border: 1px solid var(--global-divider-color);
-  border-left: 3px solid var(--global-theme-color);
-  border-radius: 6px;
-  background-color: var(--global-card-bg-color);
-  color: var(--global-text-color);
-  transition: border-color 0.2s ease, transform 0.2s ease;
-
-  &:hover {
-    color: var(--global-text-color);
-    text-decoration: none;
-    border-color: var(--global-theme-color);
-    transform: translateX(2px);
-  }
-}
-
-.bicycle-card-emoji {
-  font-size: 1.6rem;
-  line-height: 1.2;
-}
-
-.bicycle-card-body {
-  display: flex;
-  flex-direction: column;
-  gap: 0.3rem;
-}
-
-.bicycle-card-tagline {
-  font-size: 1.05rem;
-  line-height: 1.4;
-}
-
-.bicycle-card-name {
-  font-family: var(--global-code-font-family, monospace);
-  font-size: 0.8rem;
-  color: var(--global-text-color-light);
-}
-
 // Blog
 
 .header-bar {

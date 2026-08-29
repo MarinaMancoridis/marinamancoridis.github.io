@@ -17,5 +17,6 @@ github_repos:
 # Bottom section of /repositories/ — "bicycles of the mind"
 bicycles_repos:
   - repo: MarinaMancoridis/PingPong
-    emoji: "🏓"
-    tagline: A lightweight task manager that tracks who owes what to whom, so nothing slips.
+    description: A custom task manager that (1) tracks deliverables and (2) tracks who owes what to whom.
+    language: Python
+    language_color: "#3572A5"
