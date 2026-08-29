@@ -621,6 +621,81 @@ footer.sticky-bottom {
   text-align: center;
 }
 
+// Preview of the externally hosted blog on /writing/
+.blog-preview {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.blog-preview-post {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  padding: 1rem 1.1rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 6px;
+  background-color: var(--global-card-bg-color);
+  color: var(--global-text-color);
+  transition: border-color 0.2s ease, transform 0.2s ease;
+
+  &:hover {
+    color: var(--global-text-color);
+    text-decoration: none;
+    border-color: var(--global-theme-color);
+    transform: translateY(-2px);
+  }
+}
+
+.blog-preview-thumb {
+  flex: 0 0 auto;
+  width: 88px;
+  height: 88px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.blog-preview-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  min-width: 0;
+}
+
+.blog-preview-title {
+  font-size: 1.05rem;
+  font-weight: 600;
+  color: var(--global-theme-color);
+}
+
+.blog-preview-summary {
+  font-size: 0.9rem;
+  line-height: 1.4;
+  color: var(--global-text-color-light);
+}
+
+.blog-preview-date {
+  font-size: 0.78rem;
+  color: var(--global-text-color-light);
+}
+
+.blog-preview-more {
+  align-self: flex-start;
+  font-size: 0.9rem;
+
+  i {
+    font-size: 0.75rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .blog-preview-thumb {
+    width: 64px;
+    height: 64px;
+  }
+}
+
 // "Bicycles of the mind" cards — deliberately wider and quieter than the
 // research repo cards, with the tagline as the focal point.
 .bicycles {

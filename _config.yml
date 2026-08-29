@@ -203,6 +203,12 @@ collections:
     output: true
     permalink: /:collection/:title/
 
+# Externally hosted blogs previewed on-site (see _plugins/substack-preview.rb)
+blog_previews:
+  - key: substack
+    rss_url: https://writing.marinamancoridis.com/feed
+    limit: 3
+
 announcements:
   enabled: true
   scrollable: true # adds a vertical scroll bar if there are more than 3 news items
