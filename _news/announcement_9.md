@@ -1,7 +1,7 @@
 ---
 layout: post
 date: "2026-08-01"
-date_display: "Aug 2025 &amp;<br>Aug 2026"
+date_display: "Aug 2025 &amp; 2026"
 inline: true
 related_posts: false
 ---
