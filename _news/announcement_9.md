@@ -6,4 +6,4 @@ inline: true
 related_posts: false
 ---
 
-I was twice awarded the Schwarzman College of Computing Amazon AI Research Innovation Fellowship, and I was a fellow in [Anthropic](https://www.anthropic.com/), [Next Ladder Ventures](https://www.nextladder.com/), and [MIT Bike Shop](https://thebikeshop.mit.edu/)'s AI for Social Impact Summer Fellowship.
+I was twice awarded the Schwarzman College of Computing Amazon AI Research Innovation Fellowship.
