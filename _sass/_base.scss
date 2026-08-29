@@ -239,7 +239,13 @@ ul.task-list input[type="checkbox"] {
 
 @media (min-width: 992px) {
   .profile {
-    width: 270px;
+    width: 286px;
+  }
+
+  // Take the extra width out of the gutter rather than the text column, so
+  // the photo grows without making the bio wrap taller and chase the gap.
+  .profile.float-left {
+    margin-right: 1rem;
   }
 }
 
