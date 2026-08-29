@@ -9,6 +9,15 @@ nav_order: 5
 
 I write short essays on psychology and algorithms [writing.marinamancoridis.com](https://writing.marinamancoridis.com/).
 
+<p class="blog-preview-more-line">
+  <a class="blog-preview-more" href="https://writing.marinamancoridis.com/">
+    read everything
+    <i class="fa-solid fa-arrow-right"></i>
+  </a>
+</p>
+
+<p class="blog-preview-lead">Here is a sample of my recent writing.</p>
+
 <div class="blog-preview">
   {% assign feed = site.data.substack %}
   {% for post in feed.posts %}
@@ -27,9 +36,4 @@ I write short essays on psychology and algorithms [writing.marinamancoridis.com]
       </span>
     </a>
   {% endfor %}
-
-  <a class="blog-preview-more" href="https://writing.marinamancoridis.com/">
-    {% if feed.posts.size > 0 %}read everything{% else %}visit the blog{% endif %}
-    <i class="fa-solid fa-arrow-right"></i>
-  </a>
 </div>
