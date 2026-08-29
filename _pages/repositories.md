@@ -2,8 +2,8 @@
 layout: page
 permalink: /repositories/
 title: projects
-description: things i have built
 nav: true
+hide_header: true
 ---
 
 ## project repositories

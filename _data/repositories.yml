@@ -9,6 +9,10 @@ github_repos:
     description: Documentation for the datasets supporting the Potemkin Benchmark.
     language: Python
     language_color: "#3572A5"
+  - repo: MarinaMancoridis/ConsistencyDilemma
+    description: Reproduction package for "The Consistency Trap in LLMs" — code, evaluation pipelines, and plotting scripts.
+    language: Python
+    language_color: "#3572A5"
 
 # Bottom section of /repositories/ — "bicycles of the mind"
 bicycles_repos: []
