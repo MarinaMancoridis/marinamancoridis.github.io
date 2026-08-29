@@ -617,8 +617,31 @@ footer.sticky-bottom {
 
 .cv-line {
   clear: both;
-  margin-top: 1.5rem;
+  margin-top: 2rem;
   text-align: center;
+}
+
+.cv-download {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.45rem 1.1rem;
+  border: 1px solid var(--global-divider-color);
+  border-radius: 999px;
+  font-size: 0.9rem;
+  color: var(--global-text-color-light);
+  transition: color 0.2s ease, border-color 0.2s ease, background-color 0.2s ease;
+
+  i {
+    font-size: 0.85rem;
+  }
+
+  &:hover {
+    text-decoration: none;
+    color: var(--global-theme-color);
+    border-color: var(--global-theme-color);
+    background-color: var(--global-card-bg-color);
+  }
 }
 
 // Preview of the externally hosted blog on /writing/
