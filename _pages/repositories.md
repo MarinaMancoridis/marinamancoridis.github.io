@@ -20,7 +20,7 @@ hide_header: true
   <p class="repo-section-description"><em>coming soon.</em></p>
 {% endif %}
 
----
+<hr class="projects-divider">
 
 ## bicycles of the mind
 
