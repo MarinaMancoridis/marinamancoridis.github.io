@@ -237,6 +237,12 @@ ul.task-list input[type="checkbox"] {
   }
 }
 
+@media (min-width: 992px) {
+  .profile {
+    width: 270px;
+  }
+}
+
 @media (max-width: 575px) {
   .profile {
     width: 25%; /* Reduced width for smaller screens */
