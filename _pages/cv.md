@@ -2,7 +2,8 @@
 layout: cv
 permalink: /cv/
 title: cv
-nav: true
+nav: false
+published: false
 cv_pdf: marinamancoridis_cv.pdf
 description: general details below; full document to the right
 toc:
